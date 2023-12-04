@@ -40,12 +40,12 @@ h3 {
 
 .boton {
     background-color: #005f73;
-    color: #e9d8a6; 
+    color: #e9d8a6;
 }
 
-.boton:hover{
+.boton:hover {
     background-color: #0a9396;
-    color: white; 
+    color: white;
 }
 
 .titulo {
@@ -53,22 +53,13 @@ h3 {
     font-weight: 600;
 }
 
-#logoWeb {
-    width: 50px;
-    height: 50px;
-}
-
 .logo {
     width: 30px;
     height: 30px;
 }
 
-/* Header */
-
-header {
+nav {
     background-color: #0a9396;
-    position: fixed;
-    top: 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -76,6 +67,22 @@ header {
     margin: 0;
 }
 
+.nav-link {
+    color: #e9d8a6;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration-line: underline;
+}
+
+.navbar-brand {
+    padding-bottom: 0;
+    color: #e9d8a6;
+    font-size: 1.5rem;
+}
+
+/* Header 
 header div {
     display: flex;
     align-items: center;
@@ -157,9 +164,9 @@ footer label {
 }
 
 .footer__submit:hover {
-background-color: #0a9396;
-color: white; 
-border: solid white;
+    background-color: #0a9396;
+    color: white;
+    border: solid white;
 }
 
 /* Sección Main General */
@@ -434,7 +441,7 @@ main section img {
         flex-direction: column;
         padding: 30px;
     }
-    
+
     footer {
         flex-direction: column-reverse;
     }

@@ -8,6 +8,10 @@
     <!-- Favicon: ícono de la pestaña del navegador -->
     <link rel="shortcut icon" href="../img/0logoFlores.png" type="image/x-icon">
 
+    <!-- Link CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <!-- Link CSS -->
     <link rel="stylesheet" href="../css/style.css">
 
@@ -26,30 +30,35 @@
     <!-- Header: encabezado -->
     <header>
 
-        <div>
-            <a href="#">
-                <img id="logoWeb" src="../img/0logoFlores.png" alt="Logo de la Floreada">
-            </a>
-
-            <h1>La Floreada</h1>
-        </div>
-
-        <!-- Navbar: barra de navegación -->
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./historia.html">Historia</a></li>
-                <li><a href="./familias.html">Familias</a></li>
-                <li><a href="#">Novedades</a></li>
-                <li><a href="./edicionesAnteriores.html">Ediciones anteriores</a></li>
-            </ul>
+        <!-- Navbar: bootstrap -->
+        <nav class="navbar fixed-top navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/0logoFlores.png" alt="Logo Floreada" width="40" height="40" class="d-inline-block">
+                    La Floreada
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./historia.html">Historia</a>
+                        <a class="nav-link" href="./familias.html">Familias</a>
+                        <a class="nav-link" href="#">Novedades</a>
+                        <a class="nav-link" href="./edicionesAnteriores.html">Ediciones anteriores</a>
+                    </div>
+                </div>
+            </div>
         </nav>
 
     </header>
 
     <!-- Main: contenido principal -->
     <main class="novedades">
-        
+
         <!-- Sección Foto de Novedades -->
         <section>
             <img class="foto-portada" src="../img/4portadaNovedades.jpg" alt="Foto de los Flores Ochoa">
@@ -62,84 +71,89 @@
             <div class="novedades__nacimientos">
                 <img src="../img/4.1nacimientos.jpg" alt="Nacimientos">
                 <div>
-                <h2>Nacimientos</h2>
-                <p>Est año 2023 nacieron</p>
-                <p>30/01 Joaquin Nicolas</p>
-                <p>20/07 Cristobal</p>
-                <p>30/10 Emma Irirna</p>
-            </div>
+                    <h2>Nacimientos</h2>
+                    <p>Est año 2023 nacieron</p>
+                    <p>30/01 Joaquin Nicolas</p>
+                    <p>20/07 Cristobal</p>
+                    <p>30/10 Emma Irirna</p>
+                </div>
             </div>
 
             <div class="novedades__cumpleanos">
                 <img src="../img/4.2cumpleanos.jpg" alt="Cumpleaños">
-            <div>
-                <h2>Cumpleaños</h2>
-                <p>03/11 Bertha Ildaura</p>
-                <p>14/11 Rafael David</p>
-                <p>20/11 Javier Fernando</p>
-                <p>28/11 Bertha María</p>
-            </div>
+                <div>
+                    <h2>Cumpleaños</h2>
+                    <p>03/11 Bertha Ildaura</p>
+                    <p>14/11 Rafael David</p>
+                    <p>20/11 Javier Fernando</p>
+                    <p>28/11 Bertha María</p>
+                </div>
             </div>
 
             <div class="novedades__floreada">
                 <img src="../img/4.3floreada2024.jpg" alt="Floreada 2024">
-            <div>
-                <h2>Próxima Floreada 2024</h2>
-                <p>La próxima Floreada 2024 será organizada por: Bertha María, Miguel Ernesto, Nora Graciela, David
-                    Ernesto, Miriam Andre y Rafael David. Todos nietos de David y Bertha Mercedes</p>
+                <div>
+                    <h2>Próxima Floreada 2024</h2>
+                    <p>La próxima Floreada 2024 será organizada por: Bertha María, Miguel Ernesto, Nora Graciela, David
+                        Ernesto, Miriam Andre y Rafael David. Todos nietos de David y Bertha Mercedes</p>
                 </div>
-                </div>
+            </div>
 
         </section>
 
     </main>
 
-   <!-- Footer: pie de página -->
-   <footer>
-    <div>
-        <p>Ubicación: </p>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124130.99944862892!2d-72.02165101928529!3d-13.529838915268748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5d826598431%3A0x2aa996cc2318315d!2sCusco!5e0!3m2!1ses-419!2spe!4v1699640801571!5m2!1ses-419!2spe"
-            width="200" height="60" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+    <!-- Footer: pie de página -->
+    <footer>
+        <div>
+            <p>Ubicación: </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124130.99944862892!2d-72.02165101928529!3d-13.529838915268748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5d826598431%3A0x2aa996cc2318315d!2sCusco!5e0!3m2!1ses-419!2spe!4v1699640801571!5m2!1ses-419!2spe"
+                width="200" height="60" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
-    <ul>
-        <li>
-            <a href="https://www.instagram.com/" target="_blank">
-                <img class="logo" src="../img/0.1logoInstagram.png" alt="Logo de Instagram">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com/" target="_blank">
-                <img class="logo" src="../img/0.2logoFacebook.png" alt="Logo de Facebook">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com/" target="_blank">
-                <img class="logo" src="../img/0.3logoYoutube.png" alt="Logo de Youtube">
-            </a>
-        </li>
-    </ul>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="logo" src="../img/0.1logoInstagram.png" alt="Logo de Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="logo" src="../img/0.2logoFacebook.png" alt="Logo de Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img class="logo" src="../img/0.3logoYoutube.png" alt="Logo de Youtube">
+                </a>
+            </li>
+        </ul>
 
-    <div>
-        <form action="">
-            <div>
-                <label for="email">Suscríbete al Newsletter</label>
-            </div>
+        <div>
+            <form action="">
+                <div>
+                    <label for="email">Suscríbete al Newsletter</label>
+                </div>
 
-            <div>
-                <input placeholder="Correo electrónico" type="email" id="email">
+                <div>
+                    <input placeholder="Correo electrónico" type="email" id="email">
 
-            </div>
-            
-            <div>
-                <input class="footer__submit" value="Suscribirse" type="submit">
-            </div>
+                </div>
 
-        </form>
-    </div>
-</footer>
+                <div>
+                    <input class="footer__submit" value="Suscribirse" type="submit">
+                </div>
+
+            </form>
+        </div>
+    </footer>
+
+    <!-- Link CDN JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </body>
 
