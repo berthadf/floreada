@@ -1,0 +1,459 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    color: #005f73;
+    text-align: justify;
+    padding: 10px;
+}
+
+h1 {
+    color: #e9d8a6;
+}
+
+h2 {
+    color: #005f73;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    color: #005f73;
+}
+
+.boton {
+    background-color: #005f73;
+    color: #e9d8a6; 
+}
+
+.boton:hover{
+    background-color: #0a9396;
+    color: white; 
+}
+
+.titulo {
+    text-align: center;
+    font-weight: 600;
+}
+
+#logoWeb {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+/* Header */
+
+header {
+    background-color: #0a9396;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0px 20px 0px 20px;
+}
+
+header nav {
+    top: 0;
+    width: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+header nav ul li {
+    margin: 20px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #e9d8a6;
+}
+
+/* Footer */
+footer {
+    background-color: #0a9396;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+footer div p {
+    color: #e9d8a6;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    display: flex;
+    margin: 15px;
+    text-decoration: none;
+}
+
+footer div form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+footer label {
+    color: #e9d8a6;
+}
+
+.footer__submit {
+    background-color: #005f73;
+    color: #e9d8a6;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+
+.footer__submit:hover {
+background-color: #0a9396;
+color: white; 
+border: solid white;
+}
+
+/* Sección Main General */
+main {
+    background-image: url(../img/fondoTextil.png);
+}
+
+main section img {
+    width: 100%;
+    border: 15px solid #005f73;
+}
+
+/* Body Home */
+.index {
+    background-image: url(/img/fondoTextil.png);
+    display: grid;
+    grid-template-areas:
+        "portada                portada                 portada"
+        "historia               historia                novedades"
+        "familias               familias                familias"
+        "ediciones-anteriores   ediciones-anteriores    ediciones-anteriores";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+
+/* Sección Main Index */
+.index p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.index a {
+    font-size: 1rem;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+/* Sección Portada */
+.index__portada {
+    grid-area: portada;
+    width: 100%;
+    margin: 58px 0px 0px 0px;
+}
+
+/* Sección Historia */
+.index__historia {
+    text-align: center;
+    color: #005f73;
+    padding: 20px;
+    overflow: hidden;
+    grid-area: historia;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sección Novedades */
+.index__novedades {
+    text-align: center;
+    color: #005f73;
+    padding: 15px;
+    overflow: hidden;
+    grid-area: novedades;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sección Familias */
+.index__familias {
+    text-align: center;
+    color: #005f73;
+    overflow: hidden;
+    grid-area: familias;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.index__familias img {
+    width: 50%;
+}
+
+/* Sección Ediciones anteriores */
+.index__ediciones-anteriores {
+    text-align: center;
+    color: #005f73;
+    overflow: hidden;
+    grid-area: ediciones-anteriores;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.index__ediciones-anteriores img {
+    width: 50%;
+}
+
+/* Página Historia */
+.historia p {
+    padding: 10px 25px 10px 25px;
+}
+
+.foto-portada {
+    width: 100%;
+    margin: 58px 0px 0px 0px;
+}
+
+.historia__fotos {
+    display: grid;
+    padding: 1% 0;
+    grid-template-areas:
+        "h1  h2"
+        "h3  h4"
+        "h5  h6";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.historia__foto-vertical {
+    padding: 20px;
+}
+
+.historia__foto-horizontal {
+    padding: 20px;
+}
+
+#h1 {
+    grid-area: h1;
+}
+
+#h2 {
+    grid-area: h2;
+}
+
+#h3 {
+    grid-area: h3;
+}
+
+#h4 {
+    grid-area: h4;
+}
+
+#h5 {
+    grid-area: h5;
+}
+
+#h6 {
+    grid-area: h6;
+}
+
+/* Página Familias */
+.familias__fotos {
+    display: grid;
+    padding: 1% 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.familias__tarjeta {
+    padding: 5px;
+    margin: 5px;
+}
+
+.familias__tarjeta p {
+    padding: 0;
+}
+
+/* Página Novedades */
+.novedades__tarjeta {
+    text-align: center;
+    color: #005f73;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.novedades__tarjeta img {
+    width: 40%;
+}
+
+.novedades__nacimientos {
+    text-align: center;
+    color: #005f73;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.novedades__cumpleanos {
+    text-align: center;
+    color: #005f73;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.novedades__floreada {
+    text-align: center;
+    color: #005f73;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+/* Página Ediciones Anteriores */
+.ediciones-anteriores__fotos {
+    display: grid;
+    padding: 1% 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+
+.ediciones-anteriores__tarjeta {
+    padding: 5px;
+    margin: 5px;
+}
+
+.ediciones-anteriores__tarjeta p {
+    padding: 0;
+}
+
+/* Media query*/
+@media screen and (max-width: 993px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .index {
+        display: flex;
+        flex-direction: column;
+    }*/
+
+    .index {
+        width: 100%;
+    }
+
+    .index__portada {
+        margin: 113px 0px 0px 0px;
+    }
+
+    .foto-portada {
+        margin: 149px 0px 0px 0px;
+    }
+
+    .index__familias {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .index__ediciones-anteriores {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    footer {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 594px) {
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px;
+    }
+
+    .portada {
+        margin: 290px 0px 0px 0px;
+    }
+
+}
