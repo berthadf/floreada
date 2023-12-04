@@ -21,7 +21,6 @@ a:hover {
 p {
     color: #005f73;
     text-align: justify;
-    padding: 10px;
 }
 
 h1 {
@@ -31,7 +30,6 @@ h1 {
 h2 {
     color: #005f73;
     text-align: center;
-    padding: 10px;
 }
 
 h3 {
@@ -80,36 +78,6 @@ nav {
     padding-bottom: 0;
     color: #e9d8a6;
     font-size: 1.5rem;
-}
-
-/* Header 
-header div {
-    display: flex;
-    align-items: center;
-}
-
-header h1 {
-    margin: 0px 20px 0px 20px;
-}
-
-header nav {
-    top: 0;
-    width: auto;
-}
-
-header nav ul {
-    list-style-type: none;
-    display: flex;
-    margin-bottom: 0;
-}
-
-header nav ul li {
-    margin: 20px;
-}
-
-header nav ul a {
-    text-decoration: none;
-    color: #e9d8a6;
 }
 
 /* Footer */
@@ -179,22 +147,19 @@ main section img {
     border: 15px solid #005f73;
 }
 
-/* Body Home */
-.index {
-    background-image: url(/img/fondoTextil.png);
-    display: grid;
-    grid-template-areas:
-        "portada                portada                 portada"
-        "historia               historia                novedades"
-        "familias               familias                familias"
-        "ediciones-anteriores   ediciones-anteriores    ediciones-anteriores";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
+.container-fluid {
+    padding: 0;
 }
+
+.row {
+    align-items: baseline;
+}
+
+/* Body Home */
 
 /* Sección Main Index */
 .index p {
-    margin: 20px 0;
+    margin: 10px;
     text-align: justify;
 }
 
@@ -249,10 +214,6 @@ main section img {
     padding: 20px;
 }
 
-.index__familias img {
-    width: 50%;
-}
-
 /* Sección Ediciones anteriores */
 .index__ediciones-anteriores {
     text-align: center;
@@ -264,10 +225,6 @@ main section img {
     justify-content: center;
     align-items: center;
     padding: 20px;
-}
-
-.index__ediciones-anteriores img {
-    width: 50%;
 }
 
 /* Página Historia */
@@ -413,17 +370,8 @@ main section img {
         flex-direction: column;
     }
 
-    /* .index {
-        display: flex;
-        flex-direction: column;
-    }*/
-
     .index {
         width: 100%;
-    }
-
-    .index__portada {
-        margin: 113px 0px 0px 0px;
     }
 
     .foto-portada {

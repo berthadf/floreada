@@ -28,14 +28,14 @@
 
     <!-- Header: encabezado -->
     <header>
-       
+
         <!-- Navbar: bootstrap -->
         <nav class="navbar fixed-top navbar-expand-md">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./img/0logoFlores.png" alt="Logo Floreada" width="40" height="40" class="d-inline-block">
                     La Floreada
-                  </a>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -56,92 +56,132 @@
     </header>
 
     <!-- Main: contenido principal -->
-    <main class="index">
+    <div class="container-fluid">
+        <main class="index">
 
-        <!-- Sección Portada -->
-        <section class="index__portada">
-            <img src="../img/1portadaHome.jpg" alt="Foto de los Flores Ochoa y Maria del Pilar Ildaura">
-
-        </section>
-
-        <!-- Sección Historia -->
-        <section class="index__historia">
-            <h2>Historia</h2>
-            <p>
-                Miguel Ángel Flores Fernández y María del Pilar Ildaura Ochoa Pacheco, se casaron el 21 de enero de
-                1920, ante la Parroquia de San Pedro. Su domicilio era la casa N°231 de la calle Chaparro del cercado
-                del Cuzco. Miguel Ángel fue hijo de Ángel Flores y Susana Fernández, y María del Pilar Ildaura era hija
-                de Justo Zenón Ochoa y Fortunata Pacheco. El matrimonio Flores Ochoa,
-                tuvo ocho hijos: Martha Hortencia (1915), David (1921), Susana (1922), Elena (1924), Graciela (1927),
-                Alcides (1929), Teresa (1932) y Jorge Aníbal (1935).
-            </p>
-            <a class="boton" href="../pages/historia.html">Leer más</a>
-        </section>
-
-        <!-- Sección Novedades -->
-        <section class="index__novedades">
-            <h2>Novedades</h2>
-
-            <p>La familia Flores Ochoa siempre tiene novedades... Entérate de los últimos nacimientos, cumpleaños del
-                mes y como van los preparativos para la Floreada del próximo año 2024.</p>
-
-            <a class="boton" href="../pages/novedades.html">Leer más</a>
-        </section>
-
-        <!-- Sección Familias -->
-        <section class="index__familias">
-
-            <img src="../img/1.1familias.jpg" alt="Foto de la Familia Flores Ochoa">
-
-            <div>
-                <h2>Familias</h2>
-
-                <p>
-                    <strong>Martha Hortencia</strong> y Rubén tuvieron cuatro hijos: Rubén Alfredo, Martha Pilar, Julio
-                    Alberto y Julia Irene (mellizos). <br>
-                    <strong>David</strong> y Bertha Mercedes tuvieron cinco hijos: Miguel David, Bertha Ildaura, Rafael
-                    David, Gabriel Martín y Cecilia Rosa. <br>
-                    <strong>Susana</strong> y Carlos Alberto tuvieron tres hijos: Carlos Humberto, Bertha Susana y Jesús
-                    Guillermo. <br>
-                    <strong>Elena</strong> y Mariano Alipio tuvieron cinco hijos: Mario Alberto, María Elena, Ruth
-                    Celina, Miguel Ernesto y Luis Fernando. <br>
-                    <strong>Graciela</strong> y Martín Belisario tuvieron dos hijos: José Francisco y Carlos Alberto.
-                    <br>
-                    <strong>Alcides</strong> y Antonia Fidela tuvieron seis hijos: Miguel Angel, Jorge Alcides, Maximo
-                    Roberto, Maria Cecilia, Javier Fernando y Rocío Pilar. <br>
-                    <strong>Teresa</strong> y Luis Alberto tuvieron cinco hijas: Teresa Laura, Maritza Rossana, María
-                    del Carmen, Violeta Socorro y Rosa María. <br>
-                    <strong>Jorge Aníbal</strong> y Yemira Doris tuvieron cuatro hijos: Gustavo Aníbal, Miguel Ángel,
-                    Eldi Zulema y Jorge Aníbal.
-                </p>
-
-                <a class="boton" href="../pages/familias.html">Leer más</a>
+            <!-- Sección Portada -->
+            <div class="row">
+                <section class="index__portada">
+                    <img src="../img/1portadaHome.jpg" alt="Foto de los Flores Ochoa y Maria del Pilar Ildaura">
+                </section>
             </div>
 
-        </section>
+            <!-- Sección Historia -->
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <section class="index__historia">
+                        <h2>Historia</h2>
+                        <p>
+                            Miguel Ángel Flores Fernández y María del Pilar Ildaura Ochoa Pacheco, se casaron el 21 de
+                            enero
+                            de
+                            1920, ante la Parroquia de San Pedro. Su domicilio era la casa N°231 de la calle Chaparro
+                            del
+                            cercado
+                            del Cuzco. Miguel Ángel fue hijo de Ángel Flores y Susana Fernández, y María del Pilar
+                            Ildaura
+                            era
+                            hija
+                            de Justo Zenón Ochoa y Fortunata Pacheco. El matrimonio Flores Ochoa,
+                            tuvo ocho hijos: Martha Hortencia (1915), David (1921), Susana (1922), Elena (1924),
+                            Graciela
+                            (1927),
+                            Alcides (1929), Teresa (1932) y Jorge Aníbal (1935).
+                        </p>
+                        <a class="boton" href="../pages/historia.html">Leer más</a>
+                    </section>
+                </div>
 
-        <!-- Sección Ediciones anteriores -->
-        <section class="index__ediciones-anteriores">
+                <!-- Sección Novedades -->
+                <div class="col">
+                    <section class="index__novedades">
+                        <h2>Novedades</h2>
 
-            <img src="../img/1.2edicionesAnteriores.jpg" alt="Foto de la Floreada 2023">
+                        <p>La familia Flores Ochoa siempre tiene novedades... Entérate de los últimos nacimientos,
+                            cumpleaños
+                            del
+                            mes y como van los preparativos para la Floreada del próximo año 2024.</p>
 
-            <div>
-                <h2>Ediciones anteriores</h2>
-
-                <p>
-                    Cada año desde el 2012 hasta la actualidad se viene realizando anualmente la reunión de la familia
-                    Flores Ochoa, reunión cariñosamente denominada La Floreada que congrega a buena parte de la familia.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nesciunt amet nulla, itaque qui,
-                    provident reiciendis pariatur doloremque modi ea ipsam facere! Ratione numquam hic rerum vel fuga
-                    deserunt consectetur!
-                </p>
-
-                <a class="boton" href="../pages/edicionesAnteriores.html">Leer más</a>
+                        <a class="boton" href="../pages/novedades.html">Leer más</a>
+                    </section>
+                </div>
             </div>
 
-        </section>
+            <!-- Sección Familias -->
+            <div class="row">
+                <section class="index__familias">
+                    <div class="col">
+                        <img src="../img/1.1familias.jpg" alt="Foto de la Familia Flores Ochoa">
+                    </div>
 
-    </main>
+                    <div class="col">
+                        <h2>Familias</h2>
+
+                        <p>
+                            <strong>Martha Hortencia</strong> y Rubén tuvieron cuatro hijos: Rubén Alfredo, Martha
+                            Pilar,
+                            Julio
+                            Alberto y Julia Irene (mellizos). <br>
+                            <strong>David</strong> y Bertha Mercedes tuvieron cinco hijos: Miguel David, Bertha Ildaura,
+                            Rafael
+                            David, Gabriel Martín y Cecilia Rosa. <br>
+                            <strong>Susana</strong> y Carlos Alberto tuvieron tres hijos: Carlos Humberto, Bertha Susana
+                            y
+                            Jesús
+                            Guillermo. <br>
+                            <strong>Elena</strong> y Mariano Alipio tuvieron cinco hijos: Mario Alberto, María Elena,
+                            Ruth
+                            Celina, Miguel Ernesto y Luis Fernando. <br>
+                            <strong>Graciela</strong> y Martín Belisario tuvieron dos hijos: José Francisco y Carlos
+                            Alberto.
+                            <br>
+                            <strong>Alcides</strong> y Antonia Fidela tuvieron seis hijos: Miguel Angel, Jorge Alcides,
+                            Maximo
+                            Roberto, Maria Cecilia, Javier Fernando y Rocío Pilar. <br>
+                            <strong>Teresa</strong> y Luis Alberto tuvieron cinco hijas: Teresa Laura, Maritza Rossana,
+                            María
+                            del Carmen, Violeta Socorro y Rosa María. <br>
+                            <strong>Jorge Aníbal</strong> y Yemira Doris tuvieron cuatro hijos: Gustavo Aníbal, Miguel
+                            Ángel,
+                            Eldi Zulema y Jorge Aníbal.
+                        </p>
+
+                        <a class="boton" href="../pages/familias.html">Leer más</a>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- Sección Ediciones anteriores -->
+            <div class="row">
+                <section class="index__ediciones-anteriores">
+<div class="col">
+                    <img src="../img/1.2edicionesAnteriores.jpg" alt="Foto de la Floreada 2023">
+                </div>
+
+                    <div class="col">
+                        <h2>Ediciones anteriores</h2>
+
+                        <p>
+                            Cada año desde el 2012 hasta la actualidad se viene realizando anualmente la reunión de la
+                            familia
+                            Flores Ochoa, reunión cariñosamente denominada La Floreada que congrega a buena parte de la
+                            familia.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nesciunt amet nulla, itaque
+                            qui,
+                            provident reiciendis pariatur doloremque modi ea ipsam facere! Ratione numquam hic rerum vel
+                            fuga
+                            deserunt consectetur!
+                        </p>
+
+                        <a class="boton" href="../pages/edicionesAnteriores.html">Leer más</a>
+                    </div>
+
+                </section>
+            </div>
+
+        </main>
+    </div>
 
     <!-- Footer: pie de página -->
     <footer>
