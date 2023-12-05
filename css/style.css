@@ -34,6 +34,7 @@ h2 {
 
 h3 {
     color: #005f73;
+    text-align: center;
 }
 
 .boton {
@@ -56,6 +57,7 @@ h3 {
     height: 30px;
 }
 
+/* Header */
 nav {
     background-color: #0a9396;
     width: 100%;
@@ -281,6 +283,7 @@ main section img {
 }
 
 /* Página Familias */
+
 .familias__fotos {
     display: grid;
     padding: 1% 0;
@@ -372,10 +375,6 @@ main section img {
 
     .index {
         width: 100%;
-    }
-
-    .foto-portada {
-        margin: 149px 0px 0px 0px;
     }
 
     .index__familias {
