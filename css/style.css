@@ -282,24 +282,6 @@ main section img {
     grid-area: h6;
 }
 
-/* Página Familias */
-
-.familias__fotos {
-    display: grid;
-    padding: 1% 0;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-}
-
-.familias__tarjeta {
-    padding: 5px;
-    margin: 5px;
-}
-
-.familias__tarjeta p {
-    padding: 0;
-}
-
 /* Página Novedades */
 .novedades__tarjeta {
     text-align: center;
