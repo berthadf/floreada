@@ -164,6 +164,14 @@ main section img {
     justify-content: center;
 }
 
+.col-lg-5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Body Home */
 
 /* Sección Main Index */
@@ -236,56 +244,7 @@ main section img {
     padding: 20px;
 }
 
-/* Página Novedades */
-.novedades__tarjeta {
-    text-align: center;
-    color: #005f73;
-    padding: 20px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.novedades__tarjeta img {
-    width: 40%;
-}
-
-.novedades__nacimientos {
-    text-align: center;
-    color: #005f73;
-    padding: 20px;
-    overflow: hidden;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 100%;
-}
-
-.novedades__cumpleanos {
-    text-align: center;
-    color: #005f73;
-    padding: 20px;
-    overflow: hidden;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 100%;
-}
-
-.novedades__floreada {
-    text-align: center;
-    color: #005f73;
-    padding: 20px;
-    overflow: hidden;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 100%;
-}
-
-/* Media query*/
+/* Media query
 @media screen and (max-width: 993px) {
     header {
         display: flex;
@@ -330,3 +289,4 @@ main section img {
     }
 
 }
+*/
