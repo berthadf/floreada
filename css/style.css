@@ -285,23 +285,6 @@ main section img {
     width: 100%;
 }
 
-/* Página Ediciones Anteriores */
-.ediciones-anteriores__fotos {
-    display: grid;
-    padding: 1% 0;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
-}
-
-.ediciones-anteriores__tarjeta {
-    padding: 5px;
-    margin: 5px;
-}
-
-.ediciones-anteriores__tarjeta p {
-    padding: 0;
-}
-
 /* Media query*/
 @media screen and (max-width: 993px) {
     header {
