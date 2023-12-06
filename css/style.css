@@ -21,6 +21,7 @@ a:hover {
 p {
     color: #005f73;
     text-align: justify;
+    margin: 10px;
 }
 
 h1 {
@@ -55,6 +56,11 @@ h3 {
 .logo {
     width: 30px;
     height: 30px;
+}
+
+.foto-portada {
+    width: 100%;
+    margin: 58px 0px 0px 0px;
 }
 
 /* Header */
@@ -155,6 +161,7 @@ main section img {
 
 .row {
     align-items: baseline;
+    justify-content: center;
 }
 
 /* Body Home */
@@ -227,59 +234,6 @@ main section img {
     justify-content: center;
     align-items: center;
     padding: 20px;
-}
-
-/* Página Historia */
-.historia p {
-    padding: 10px 25px 10px 25px;
-}
-
-.foto-portada {
-    width: 100%;
-    margin: 58px 0px 0px 0px;
-}
-
-.historia__fotos {
-    display: grid;
-    padding: 1% 0;
-    grid-template-areas:
-        "h1  h2"
-        "h3  h4"
-        "h5  h6";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
-}
-
-.historia__foto-vertical {
-    padding: 20px;
-}
-
-.historia__foto-horizontal {
-    padding: 20px;
-}
-
-#h1 {
-    grid-area: h1;
-}
-
-#h2 {
-    grid-area: h2;
-}
-
-#h3 {
-    grid-area: h3;
-}
-
-#h4 {
-    grid-area: h4;
-}
-
-#h5 {
-    grid-area: h5;
-}
-
-#h6 {
-    grid-area: h6;
 }
 
 /* Página Novedades */
