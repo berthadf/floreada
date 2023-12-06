@@ -101,9 +101,7 @@ footer {
 
 footer div {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content: space-evenly;
 }
 
 footer div p {
@@ -112,6 +110,8 @@ footer div p {
 
 footer ul {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 footer ul li {
@@ -244,17 +244,8 @@ main section img {
     padding: 20px;
 }
 
-/* Media query
+/* Media query */
 @media screen and (max-width: 993px) {
-    header {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .index {
-        width: 100%;
-    }
-
     .index__familias {
         display: flex;
         flex-direction: column;
@@ -266,27 +257,4 @@ main section img {
         flex-direction: column;
         padding: 30px;
     }
-
-    footer {
-        flex-direction: column-reverse;
-    }
 }
-
-@media screen and (max-width: 594px) {
-
-    header nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header nav ul li {
-        margin: 10px;
-    }
-
-    .portada {
-        margin: 290px 0px 0px 0px;
-    }
-
-}
-*/
