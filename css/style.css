@@ -22,6 +22,7 @@ p {
     color: #005f73;
     text-align: justify;
     margin: 10px;
+    padding: 0 0 20px 0;
 }
 
 h1 {
@@ -31,11 +32,15 @@ h1 {
 h2 {
     color: #005f73;
     text-align: center;
+    padding: 20px 0 0 0;
+    font-weight: 600;
 }
 
 h3 {
     color: #005f73;
     text-align: center;
+    padding: 15px 0 0 0;
+    font-weight: 550;
 }
 
 .boton {
@@ -92,7 +97,6 @@ nav {
 footer {
     background-color: #0a9396;
     width: 100%;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0;
@@ -101,7 +105,8 @@ footer {
 
 footer div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 15px 0 15px 0;
 }
 
 footer div p {
@@ -123,7 +128,8 @@ footer ul li {
 footer div form {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
     margin: 10px;
 }
 
@@ -162,6 +168,8 @@ main section img {
 .row {
     align-items: baseline;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .col-lg-5 {
@@ -188,7 +196,6 @@ main section img {
 
 /* Sección Portada */
 .index__portada {
-    grid-area: portada;
     width: 100%;
     margin: 58px 0px 0px 0px;
 }
@@ -197,9 +204,7 @@ main section img {
 .index__historia {
     text-align: center;
     color: #005f73;
-    padding: 20px;
     overflow: hidden;
-    grid-area: historia;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -210,9 +215,7 @@ main section img {
 .index__novedades {
     text-align: center;
     color: #005f73;
-    padding: 15px;
     overflow: hidden;
-    grid-area: novedades;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,11 +227,10 @@ main section img {
     text-align: center;
     color: #005f73;
     overflow: hidden;
-    grid-area: familias;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 /* Sección Ediciones anteriores */
@@ -236,12 +238,25 @@ main section img {
     text-align: center;
     color: #005f73;
     overflow: hidden;
-    grid-area: ediciones-anteriores;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+/* Página Historia */
+.historia div p {
+    margin: 0 15px 0 15px;
+}
+
+/* Página Novedades */
+.novedades div {
+    align-items: center;
+}
+
+.novedades div p {
+    margin: 0 40px 0 40px;
 }
 
 /* Media query */
