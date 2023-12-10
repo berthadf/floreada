@@ -227,23 +227,29 @@ main section img {
 .index__familias {
     text-align: center;
     color: #005f73;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
 }
 
+.index__familias div p {
+    margin: 0 40px 0 40px;
+}
+
 /* Sección Ediciones anteriores */
 .index__ediciones-anteriores {
     text-align: center;
     color: #005f73;
-    overflow: hidden;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
+}
+
+.index__ediciones-anteriores div p {
+    margin: 0 40px 0 40px;
 }
 
 /* Página Historia */
