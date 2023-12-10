@@ -159,7 +159,7 @@ main {
 
 main section img {
     width: 100%;
-   /* border: 15px solid #005f73;*/
+    /* border: 15px solid #005f73;*/
 }
 
 .container-fluid {
@@ -268,7 +268,7 @@ main section img {
     margin: 0 40px 0 40px;
 }
 
-/* Media query */
+/* Media queries */
 @media screen and (max-width: 993px) {
     .index__familias {
         display: flex;
@@ -286,5 +286,12 @@ main section img {
 @media screen and (max-width: 768px) {
     .navbar-nav {
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    footer div form {
+        display: flex;
+        flex-direction: column;
     }
 }
