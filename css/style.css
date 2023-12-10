@@ -159,7 +159,7 @@ main {
 
 main section img {
     width: 100%;
-    border: 15px solid #005f73;
+   /* border: 15px solid #005f73;*/
 }
 
 .container-fluid {
@@ -280,5 +280,11 @@ main section img {
         display: flex;
         flex-direction: column;
         padding: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        align-items: center;
     }
 }
