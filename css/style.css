@@ -253,10 +253,15 @@ main section img {
 }
 
 /* Página Historia */
-.historia div p {
+.historia__texto {
     margin: 0 15px 0 15px;
     font-family: Indie Flower;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.pie-de-foto {
+    font-family: none;
 }
 
 /* Página Novedades */
