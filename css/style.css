@@ -44,6 +44,10 @@ h3 {
     font-weight: 550;
 }
 
+h5 {
+    font-size: 1.5rem;
+}
+
 .boton {
     background-color: #005f73;
     color: #e9d8a6;
@@ -305,4 +309,12 @@ main section img {
         display: flex;
         flex-direction: column;
     }
+}
+
+.carousel-control-prev {
+    width: 30%;
+}
+
+.carousel-control-next {
+    width: 30%;
 }
