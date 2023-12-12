@@ -200,9 +200,12 @@ main section img {
 }
 
 /* Sección Portada */
-.index__portada {
-    width: 100%;
-    margin: 58px 0px 0px 0px;
+.carousel-control-prev {
+    width: 30%;
+}
+
+.carousel-control-next {
+    width: 30%;
 }
 
 /* Sección Historia */
@@ -216,15 +219,11 @@ main section img {
     padding: 40px;
 }
 
-/* Sección Novedades */
-.index__novedades {
-    text-align: center;
-    color: #005f73;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.index__historia p {
+    font-family: Indie Flower;
+    font-size: 1.3rem;
+    font-weight: 590;
+    margin: 0 15px 0 15px;
 }
 
 /* Sección Familias */
@@ -237,8 +236,11 @@ main section img {
     padding: 40px;
 }
 
-.index__familias div p {
-    margin: 0 40px 0 40px;
+.index__familias p {
+    font-family: Indie Flower;
+    font-size: 1.3rem;
+    font-weight: 590;
+    margin: 0 15px 0 15px;
 }
 
 /* Sección Ediciones anteriores */
@@ -252,8 +254,11 @@ main section img {
     padding: 40px;
 }
 
-.index__ediciones-anteriores div p {
-    margin: 0 40px 0 40px;
+.index__ediciones-anteriores p {
+    font-family: Indie Flower;
+    font-size: 1.3rem;
+    font-weight: 590;
+    margin: 0 15px 0 15px;
 }
 
 /* Página Historia */
@@ -309,12 +314,4 @@ main section img {
         display: flex;
         flex-direction: column;
     }
-}
-
-.carousel-control-prev {
-    width: 30%;
-}
-
-.carousel-control-next {
-    width: 30%;
 }
