@@ -1,0 +1,317 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    color: #005f73;
+    text-align: justify;
+    margin: 10px;
+    padding: 0 0 20px 0;
+}
+
+h1 {
+    color: #e9d8a6;
+}
+
+h2 {
+    color: #005f73;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-weight: 600;
+}
+
+h3 {
+    color: #005f73;
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-weight: 550;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+.boton {
+    background-color: #005f73;
+    color: #e9d8a6;
+}
+
+.boton:hover {
+    background-color: #0a9396;
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: 600;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.foto-portada {
+    width: 100%;
+    margin: 58px 0px 0px 0px;
+}
+
+/* Header */
+nav {
+    background-color: #0a9396;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.nav-link {
+    color: #e9d8a6;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration-line: underline;
+}
+
+.navbar-brand {
+    padding-bottom: 0;
+    color: #e9d8a6;
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #0a9396;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+}
+
+footer div p {
+    color: #e9d8a6;
+}
+
+footer ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: flex;
+    margin: 15px;
+    text-decoration: none;
+}
+
+footer div form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10px;
+}
+
+footer label {
+    color: #e9d8a6;
+}
+
+.footer__submit {
+    background-color: #005f73;
+    color: #e9d8a6;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+
+.footer__submit:hover {
+    background-color: #0a9396;
+    color: white;
+    border: solid white;
+}
+
+/* Sección Main General */
+main {
+    background-image: url(../img/fondoTextil.png);
+}
+
+main section img {
+    width: 100%;
+    /* border: 15px solid #005f73;*/
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    align-items: baseline;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Body Home */
+
+/* Sección Main Index */
+.index p {
+    margin: 10px;
+    text-align: justify;
+}
+
+.index a {
+    font-size: 1rem;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+/* Sección Portada */
+.carousel-control-prev {
+    width: 30%;
+}
+
+.carousel-control-next {
+    width: 30%;
+}
+
+/* Sección Historia */
+.index__historia {
+    text-align: center;
+    color: #005f73;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.index__historia p {
+    font-family: Indie Flower;
+    font-size: 1.3rem;
+    font-weight: 590;
+    margin: 0 15px 0 15px;
+}
+
+/* Sección Familias */
+.index__familias {
+    text-align: center;
+    color: #005f73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.index__familias p {
+    font-family: Indie Flower;
+    font-size: 1.3rem;
+    font-weight: 590;
+    margin: 0 15px 0 15px;
+}
+
+/* Sección Ediciones anteriores */
+.index__ediciones-anteriores {
+    text-align: center;
+    color: #005f73;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.index__ediciones-anteriores p {
+    font-family: Indie Flower;
+    font-size: 1.3rem;
+    font-weight: 590;
+    margin: 0 15px 0 15px;
+}
+
+/* Página Historia */
+.historia__texto {
+    margin: 0 15px 0 15px;
+    font-family: Indie Flower;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.pie-de-foto {
+    font-family: none;
+}
+
+/* Página Novedades */
+.novedades div {
+    align-items: center;
+}
+
+.novedades div p {
+    margin: 0 40px 0 40px;
+}
+
+/* Media queries */
+@media screen and (max-width: 993px) {
+    .index__historia {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .index__familias {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .index__ediciones-anteriores {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    footer div form {
+        display: flex;
+        flex-direction: column;
+    }
+}

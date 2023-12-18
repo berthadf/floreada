@@ -1,0 +1,72 @@
+%secciones {
+    text-align: center;
+    color: $color-primario;
+    padding: 40px;
+
+    p {
+        font-family: Indie Flower;
+        font-size: 1.3rem;
+        font-weight: 590;
+        margin: 0 15px 0 15px;
+    }
+}
+
+.index {
+    p {
+        margin: 10px;
+        text-align: justify;
+    }
+
+    a {
+        font-size: 1rem;
+        border-radius: 25px;
+        padding: 5px 10px;
+    }
+
+    /* Sección Historia */
+    &__historia {
+        @extend %secciones;
+
+        .row {
+            @include flex ($direccion: row-reverse);
+        }
+    }
+
+    /* Sección Familias */
+    &__familias {
+        @extend %secciones;
+
+        .row {
+            @include flex ();
+        }
+    }
+
+    /* Sección Ediciones anteriores */
+    &__ediciones-anteriores {
+        @extend %secciones;
+
+        .row {
+            @include flex ($direccion: row-reverse);
+        }
+    }
+}
+
+/* Media queries */
+@media screen and (max-width: 993px) {
+    .index {
+        &__historia {
+            @include flex ($direccion: column);
+            padding: 30px;
+        }
+
+        &__familias {
+            @include flex ($direccion: column);
+            padding: 30px;
+        }
+
+        &__ediciones-anteriores {
+            @include flex ($direccion: column);
+            padding: 30px;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@mixin tamanio ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin flex ($direccion: row, $contenido: center, $items: center) {
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $contenido;
+    align-items: $items;
+}

@@ -1,0 +1,35 @@
+main {
+    background-image: url(../img/fondoTextil.png);
+
+    section img {
+        width: 100%;
+    }
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-portada {
+    width: 100%;
+    margin: 58px 0px 0px 0px;
+}
+
+.foto{
+    @include flex ($direccion: column, $items: stretch);
+}

@@ -1,0 +1,17 @@
+.historia {
+
+    &__texto {
+        margin: 0 15px 0 15px;
+        font-family: Indie Flower;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .row {
+        @include flex ($items: baseline);
+    }
+}
+
+.pie-de-foto {
+    font-family: none;
+}

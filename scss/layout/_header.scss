@@ -1,0 +1,28 @@
+nav {
+    background-color: $color-secundario;
+    width: 100%;
+    @include flex ($contenido: space-between);
+    margin: 0;
+}
+
+.nav-link {
+    color: $color-terciario;
+
+    &:hover {
+        color: $color-cuaternario;
+        text-decoration-line: underline;
+    }
+}
+
+.navbar-brand {
+    padding-bottom: 0;
+    color: $color-terciario;
+    font-size: 1.5rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        align-items: center;
+    }
+}
