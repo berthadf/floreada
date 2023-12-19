@@ -1,5 +1,6 @@
 nav {
     background-color: $color-secundario;
+    background: linear-gradient(180deg, $color-primario 0%, $color-secundario 50%, $color-terciario 100%);
     width: 100%;
     @include flex ($contenido: space-between);
     margin: 0;
