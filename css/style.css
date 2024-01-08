@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 a {
@@ -20,17 +21,13 @@ p {
 }
 
 h1 {
-  color: #e9d8a6;
-}
-
-h2 {
   color: #005f73;
   text-align: center;
   padding: 20px 0 0 0;
   font-weight: 600;
 }
 
-h3 {
+h2 {
   color: #005f73;
   text-align: center;
   padding: 15px 0 0 0;
