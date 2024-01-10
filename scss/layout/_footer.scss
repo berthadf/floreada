@@ -2,9 +2,9 @@ footer {
     background-color: $color-secundario;
     background: linear-gradient(180deg, $color-terciario 0%, $color-secundario 50%, $color-primario 100%);
     width: 100%;
-   
+
     div {
-        @include flex ($contenido:center);
+        @include flex ($contenido: center);
         padding: 15px 0 15px 0;
 
         p {
@@ -53,7 +53,7 @@ footer {
 }
 
 /* Media queries */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
     footer {
         div {
             form {
