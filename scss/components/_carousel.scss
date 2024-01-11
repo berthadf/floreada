@@ -7,6 +7,11 @@
         font-weight: bold;
         text-align: center;
     }
+
+    img {
+        object-fit: cover;
+        object-position: center;
+    }
 }
 
 .carousel-control {
@@ -16,5 +21,14 @@
 
     &-next {
         width: 30%;
+    }
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .carousel-item {
+        img {
+            height: 40vh;
+        }
     }
 }

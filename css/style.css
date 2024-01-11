@@ -56,6 +56,10 @@ body {
   font-weight: bold;
   text-align: center;
 }
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+}
 
 .carousel-control-prev {
   width: 30%;
@@ -64,6 +68,12 @@ body {
   width: 30%;
 }
 
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .carousel-item img {
+    height: 40vh;
+  }
+}
 nav {
   background-color: #0a9396;
   background: linear-gradient(180deg, #005f73 0%, #0a9396 50%, #6bdddf 100%);
@@ -128,6 +138,8 @@ main section img {
 .foto-portada {
   width: 100%;
   margin: 58px 0px 0px 0px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .foto {
@@ -137,6 +149,12 @@ main section img {
   align-items: stretch;
 }
 
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .foto-portada {
+    height: 40vh;
+  }
+}
 footer {
   background-color: #0a9396;
   background: linear-gradient(180deg, #6bdddf 0%, #0a9396 50%, #005f73 100%);

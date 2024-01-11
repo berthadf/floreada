@@ -28,8 +28,17 @@ main {
 .foto-portada {
     width: 100%;
     margin: 58px 0px 0px 0px;
+    object-fit: cover;
+    object-position: center;
 }
 
-.foto{
+.foto {
     @include flex ($direccion: column, $items: stretch);
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .foto-portada {
+        height: 40vh;
+    }
 }
