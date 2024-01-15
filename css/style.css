@@ -52,6 +52,7 @@ body {
   margin: 0;
   padding: 0;
   color: white;
+  font-family: Roboto;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -122,6 +123,21 @@ main {
 }
 main section img {
   width: 100%;
+}
+main p {
+  font-family: Indie Flower;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-family: Indie Flower;
+  line-height: normal;
+}
+
+h2 {
+  font-family: Indie Flower;
+  line-height: normal;
+  font-weight: bold;
 }
 
 .container-fluid {
@@ -300,7 +316,6 @@ footer label {
 .historia__texto {
   margin: 0 15px 0 15px;
   font-family: Indie Flower;
-  font-size: 1.3rem;
   font-weight: 600;
 }
 .historia .row {
@@ -310,8 +325,9 @@ footer label {
   align-items: baseline;
 }
 
-.pie-de-foto {
-  font-family: none;
+.pie-de-foto p {
+  font-family: Roboto;
+  font-size: 1rem;
 }
 
 .novedades__secciones, .index__historia, .index__familias, .index__ediciones-anteriores {
@@ -321,7 +337,6 @@ footer label {
 }
 .novedades__secciones p, .index__historia p, .index__familias p, .index__ediciones-anteriores p {
   font-family: Indie Flower;
-  font-size: 1.3rem;
   font-weight: 590;
   margin: 0 15px 0 15px;
 }
