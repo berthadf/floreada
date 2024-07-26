@@ -1,0 +1,22 @@
+.familias {
+    p {
+        text-align: center;
+    }
+
+    a {
+        img {
+            width: 100%;
+        }
+    }
+
+    &__texto {
+        margin: 0 15px 0 15px;
+        font-family: Indie Flower;
+        font-weight: 500;
+    }
+
+    .row {
+        @include flex ($items: baseline);
+    }
+
+}

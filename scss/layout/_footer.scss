@@ -5,66 +5,12 @@ footer {
 
     div {
         @include flex ($contenido: center);
-        padding: 15px 0 15px 0;
 
         p {
             color: $color-terciario;
-        }
-
-        form {
-            @include flex ($contenido: space-evenly);
-            width: 100%;
-            margin: 10px;
+            font-size: 1.5rem;
         }
     }
 
-    ul {
-        @include flex ();
-        margin: 0;
-        padding: 0;
-        list-style: none;
-
-        li {
-            margin: 15px;
-        }
-    }
-
-    label {
-        color: $color-terciario;
-    }
-}
-
-.footer__submit {
-    background-color: $color-primario;
-    color: $color-terciario;
-    padding: 10px;
-    border-radius: 25px;
-    border: none;
-
-    &:hover {
-        background-color: $color-secundario;
-        color: $color-cuaternario;
-        border: solid $color-cuaternario;
-    }
-}
-
-.logo {
-    @include tamanio (30px, 30px);
-}
-
-/* Media queries */
-@media screen and (max-width: 500px) {
-    footer {
-        div {
-            form {
-                @include flex($direccion: column);
-            }
-        }
-    }
-
-    .newsletter {
-        div {
-            padding: 5px;
-        }
-    }
+   
 }

@@ -140,6 +140,15 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-family: Indie Flower;
+  line-height: normal;
+  font-size: 1;
+  font-weight: 550;
+  text-align: center;
+  color: #005f73;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -189,71 +198,18 @@ footer div {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px 0 15px 0;
 }
 footer div p {
   color: #e9d8a6;
-}
-footer div form {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  margin: 10px;
-}
-footer ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-footer ul li {
-  margin: 15px;
-}
-footer label {
-  color: #e9d8a6;
+  font-size: 1.5rem;
 }
 
-.footer__submit {
-  background-color: #005f73;
-  color: #e9d8a6;
-  padding: 10px;
-  border-radius: 25px;
-  border: none;
-}
-.footer__submit:hover {
-  background-color: #0a9396;
-  color: white;
-  border: solid white;
-}
-
-.logo {
-  width: 30px;
-  height: 30px;
-}
-
-/* Media queries */
-@media screen and (max-width: 500px) {
-  footer div form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .newsletter div {
-    padding: 5px;
-  }
-}
-.novedades__secciones, .index__ediciones-anteriores, .index__familias, .index__historia {
+.index__ediciones-anteriores, .index__familias, .index__historia {
   text-align: center;
   color: #005f73;
   padding: 40px;
 }
-.novedades__secciones p, .index__ediciones-anteriores p, .index__familias p, .index__historia p {
+.index__ediciones-anteriores p, .index__familias p, .index__historia p {
   font-family: Indie Flower;
   font-size: 1.3rem;
   font-weight: 590;
@@ -330,28 +286,22 @@ footer label {
   font-size: 1rem;
 }
 
-.novedades__secciones, .index__historia, .index__familias, .index__ediciones-anteriores {
+.familias p {
   text-align: center;
-  color: #005f73;
-  padding: 40px;
 }
-.novedades__secciones p, .index__historia p, .index__familias p, .index__ediciones-anteriores p {
-  font-family: Indie Flower;
-  font-weight: 590;
+.familias a img {
+  width: 100%;
+}
+.familias__texto {
   margin: 0 15px 0 15px;
+  font-family: Indie Flower;
+  font-weight: 500;
 }
-
-.novedades div {
-  align-items: center;
-}
-.novedades div p {
-  margin: 0 40px 0 40px;
-}
-.novedades__secciones .row {
+.familias .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 /*# sourceMappingURL=style.css.map */
